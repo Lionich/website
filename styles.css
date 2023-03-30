@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .wrapper {
   background-image: url('background.jpg');
   background-position: center top;
@@ -7,40 +10,19 @@
   min-height: 100vh;
 }
 
-body {
-  margin: 0;
-}
-/* .relative {
-  overflow: hidden;
-  position: relative;
-}
-
-.demo-bg {
-  -webkit-filter: invert(100%);
-  filter: brightness(70%);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
-} */
-
-@media (max-width: 1000px) {
+@media (max-width: 999px) {
   .wrapper {
     background-size: 150% auto;
   }
 }
 
-p {
-  font-size: 70px;
-  font-weight: 600;
-  text-align: center;
-  color: white;
-}
-
 a {
   color: white;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .logo {
@@ -49,7 +31,13 @@ a {
 
 .logo_block {
   text-align: center;
-  margin: 150px 0 250px 0;
+  margin: 100px 0 100px 0;
+}
+
+@media (max-width: 999px) {
+  .logo_block {
+    margin: 150px 0 250px 0;
+  }
 }
 
 .top {
@@ -57,5 +45,16 @@ a {
 }
 
 .footer {
-  margin: 0 10px 50px 10px;
+  margin: 0 50px 50px 50px;
+}
+
+.text_big {
+  font-size: 70px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+address {
+  font-style: inherit;
 }
