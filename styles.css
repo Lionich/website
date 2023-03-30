@@ -45,7 +45,13 @@ a:hover {
 }
 
 .footer {
-  margin: 0 50px 150px 50px;
+  margin: 0 50px 50px 50px;
+}
+
+@media (max-width: 999px) {
+  .footer {
+    margin: 0 50px 150px 50px;
+  }
 }
 
 .text_big {
