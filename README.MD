@@ -4,10 +4,10 @@
 
 ## Структура файлов
 
-index.html: Главная HTML страница сайта.
-styles.css: CSS файл со стилями для страницы.
-logo.png: Логотип Барчика.
-favicon.ico: Иконка сайта, отображаемая во вкладке браузера.
+- index.html: Главная HTML страница сайта.
+- styles.css: CSS файл со стилями для страницы.
+- logo.png: Логотип Барчика.
+- favicon.ico: Иконка сайта, отображаемая во вкладке браузера.
 
 ## Описание
 
@@ -15,10 +15,10 @@ favicon.ico: Иконка сайта, отображаемая во вкладк
 
 ## Ссылки
 
-Telegram: [Ссылка на Telegram канал Барчика](https://t.me/barchikjamloft).
-Instagram: [Ссылка на Instagram Барчика](https://instagram.com/barchikjamloft?igshid=YmMyMTA2M2Y=).
-VK: [Ссылка на VK группу Барчика](https://vk.com/barchikloft).
-YouTube: [Ссылка на YouTube канал Барчика](https://www.youtube.com/@barchikbarchik).
+- Telegram: [Ссылка на Telegram канал Барчика](https://t.me/barchikjamloft).
+- Instagram: [Ссылка на Instagram Барчика](https://instagram.com/barchikjamloft?igshid=YmMyMTA2M2Y=).
+- VK: [Ссылка на VK группу Барчика](https://vk.com/barchikloft).
+- YouTube: [Ссылка на YouTube канал Барчика](https://www.youtube.com/@barchikbarchik).
 
 ## Контактная информация
 
