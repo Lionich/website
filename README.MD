@@ -1,25 +1,38 @@
-# README OF BARCHIKJAMLOFT PAGE
+# create-svelte
 
-Этот репозиторий содержит веб-страницу для Московского Джем-лофта "Барчик".
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Структура файлов
+## Creating a project
 
-- index.html: Главная HTML страница сайта.
-- styles.css: CSS файл со стилями для страницы.
-- logo.png: Логотип Барчика.
-- favicon.ico: Иконка сайта, отображаемая во вкладке браузера.
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Описание
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-Это веб-сайт, представляющий Джем-лофт "Барчик" в Москве. Сайт содержит основную информацию о Барчике, включая контактные данные и ссылки на социальные сети.
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-## Ссылки
+## Developing
 
-- Telegram: [Ссылка на Telegram канал Барчика](https://t.me/barchikjamloft).
-- Instagram: [Ссылка на Instagram Барчика](https://instagram.com/barchikjamloft?igshid=YmMyMTA2M2Y=).
-- VK: [Ссылка на VK группу Барчика](https://vk.com/barchikloft).
-- YouTube: [Ссылка на YouTube канал Барчика](https://www.youtube.com/@barchikbarchik).
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## Контактная информация
+```bash
+npm run dev
 
-Адрес: г. Москва, Слободской переулок, дом 6, стр. 20
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
