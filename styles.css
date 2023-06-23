@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #181818;
 }
 .wrapper {
   background-image: url('background.jpg');
@@ -36,7 +37,7 @@ a:hover {
 
 @media (max-width: 999px) {
   .logo_block {
-    margin: 150px 0 250px 0;
+    margin: 130px 0 130px 0;
   }
 }
 
