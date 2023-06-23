@@ -6,9 +6,12 @@
 }
 
 .slider {
-  width: 90%;
+  width: 100%;
   overflow: hidden;
   position: relative;
+  border: solid;
+  border-color: white;
+  margin: 20px;
 }
 
 .slider__line {
