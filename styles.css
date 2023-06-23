@@ -13,7 +13,7 @@ body {
 
 @media (max-width: 999px) {
   .wrapper {
-    background-size: 150% auto;
+    background-size: 100vh;
   }
 }
 
