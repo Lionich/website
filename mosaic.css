@@ -1,4 +1,45 @@
-.mosaic_img {
+/* .mosaic_img {
   border: solid;
   border-color: white;
+} */
+
+.container-photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo__cluster-one {
+  margin: 5em 0 1em 0;
+}
+
+.photo__cluster-one,
+.photo__cluster-two {
+  display: flex;
+  justify-content: center;
+}
+
+.photo__cluster-one img,
+.photo__cluster-two img {
+  width: 50%;
+  margin: 20px;
+  cursor: pointer;
+  border: solid;
+  border-color: white;
+}
+
+.scaleImage {
+  animation: scaling-image-animation 5s ease;
+}
+
+@keyframes scaling-image-animation {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(2.5);
+  }
 }
