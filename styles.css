@@ -46,12 +46,12 @@ a:hover {
 }
 
 .footer {
-  margin: 0 50px 50px 50px;
+  margin: 50px;
 }
 
 @media (max-width: 999px) {
   .footer {
-    margin: 0 50px 100px 50px;
+    margin: 100px 50px 100px 50px;
   }
 }
 
