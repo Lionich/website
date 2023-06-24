@@ -21,6 +21,7 @@
   cursor: pointer;
   border: solid;
   border-color: white;
+  border-width: 4px;
 }
 
 .scaleImage {
