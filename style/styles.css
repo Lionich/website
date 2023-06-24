@@ -120,8 +120,8 @@ button {
   text-align: center;
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .map_button {
     display: none;
   }
-}
+} */
