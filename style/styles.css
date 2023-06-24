@@ -3,7 +3,7 @@ body {
   background-color: #181818;
 }
 .wrapper {
-  background-image: url('background.jpg');
+  background-image: url('https://barchikloft.ru/image/background.jpg');
   background-position: center top;
   background-size: 100% auto;
   display: flex;
