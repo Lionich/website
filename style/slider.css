@@ -5,16 +5,16 @@
   margin: 0px 100px;
 }
 
+@media (max-width: 999px) {
+  .main {
+    margin: 0px 40px;
+  }
+}
+
 .slider {
   /* width: 100%; */
   overflow: hidden;
   position: relative;
-}
-
-@media (max-width: 999px) {
-  .slider {
-    margin: 0px 40px;
-  }
 }
 
 .slider__line {
