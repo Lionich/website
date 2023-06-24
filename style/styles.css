@@ -19,8 +19,7 @@ a:hover {
   background-size: 100% auto;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  background-size: 550vh;
+  /* min-height: 100vh; */
 }
 
 .container {
@@ -28,9 +27,6 @@ a:hover {
 }
 
 @media (max-width: 999px) {
-  .wrapper {
-    background-size: 350vh;
-  }
   .container {
     margin: 0 40px;
   }
