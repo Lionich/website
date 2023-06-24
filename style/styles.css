@@ -68,12 +68,14 @@ address {
   font-weight: 600;
   text-align: center;
   color: white;
+  margin: 30px;
 }
 
 .text_small {
   font-size: 22px;
   /* font-weight: 600; */
   color: white;
+  margin: 0;
 }
 
 .text_center {
