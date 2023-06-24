@@ -20,11 +20,19 @@ a:hover {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-size: 550vh;
+}
+
+.container {
+  margin: 0 100px;
 }
 
 @media (max-width: 999px) {
   .wrapper {
-    background-size: 250vh;
+    background-size: 350vh;
+  }
+  .container {
+    margin: 0 40px;
   }
 }
 
@@ -34,7 +42,7 @@ a:hover {
 
 .logo_block {
   text-align: center;
-  margin: 60px 0 60px 0;
+  margin: 60px 0;
 }
 
 @media (max-width: 999px) {
@@ -42,7 +50,7 @@ a:hover {
     width: 50%;
   }
   .logo_block {
-    margin: 100px 0 100px 0;
+    margin: 100px 0;
   }
 }
 
@@ -51,12 +59,12 @@ a:hover {
 }
 
 .footer {
-  margin: 60px 100px 60px 100px;
+  margin: 60px 0;
 }
 
 @media (max-width: 999px) {
   .footer {
-    margin: 40px;
+    margin: 40px 0;
   }
 }
 
@@ -73,6 +81,17 @@ a:hover {
   }
 }
 
+.text_small {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+.text_left {
+  text-align: left;
+}
+
 address {
   font-style: inherit;
 }
@@ -81,4 +100,28 @@ address {
   border: solid;
   border-width: 4px;
   border-color: white;
+}
+
+button {
+  background-color: #e7e7e7;
+  color: black !important;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.map_button {
+  margin: 10px;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .map_button {
+    display: none;
+  }
 }
