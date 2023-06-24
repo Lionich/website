@@ -5,7 +5,7 @@ const scalingImage = (currentPhoto) => {
 
   setTimeout(() => {
     currentPhoto.classList.remove('scaleImage')
-  }, 2500)
+  }, 5000)
 }
 
 photos.map((photo) => {
