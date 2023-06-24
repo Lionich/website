@@ -4,6 +4,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .wrapper {
   background-image: url('https://barchikloft.ru/image/background.jpg');
   background-position: center top;
@@ -17,15 +26,6 @@ body {
   .wrapper {
     background-size: 250vh;
   }
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .logo {
@@ -75,4 +75,10 @@ a:hover {
 
 address {
   font-style: inherit;
+}
+
+.border {
+  border: solid;
+  border-width: 4px;
+  border-color: white;
 }

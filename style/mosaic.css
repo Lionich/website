@@ -19,9 +19,6 @@
   width: 50%;
   margin: 20px;
   cursor: pointer;
-  border: solid;
-  border-color: white;
-  border-width: 4px;
 }
 
 .scaleImage {
