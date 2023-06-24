@@ -51,7 +51,7 @@ a:hover {
 
 @media (max-width: 999px) {
   .footer {
-    margin: 100px 50px 100px 50px;
+    margin: 0px 50px 100px 50px;
   }
 }
 
